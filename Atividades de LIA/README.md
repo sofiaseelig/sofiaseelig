@@ -1,1 +1,1 @@
-Esse repositório tem como finalidade agrupar as atividades de LIA.
+Sou Sofia Seelig, estudante de Eletrotécnica no CEFET-MG. Esse repositório é destinado às atividades de LIA.
