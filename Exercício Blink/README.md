@@ -1,10 +1,27 @@
-Descrição
+## Descrição
 
 O programa Blink faz com que um LED pisque (ou"blink"), ligando e desligando em intervalos regulares. Este ciclo se repete indefinidamente enquanto o programa estiver em execução.
 
-Circuito
+## Circuito
+<img src="https://github.com/Epaminondaslage/Aluno_Fulano_de_Tal/blob/main/Exercicio_em_Sala_1/Circuito_pisca.jpg" alt="Circuito" width="50%">
 
-Código
+<img src="https://github.com/Epaminondaslage/Aluno_Fulano_de_Tal/blob/main/Exercicio_em_Sala_1/Fig_pisca.jpg" alt="Circuito" width="50%">
+## Código
+
+Blink (Piscar) 
+
+void setup() { 
+
+pinMode(LED_BUILTIN, OUTPUT); 
+} 
+
+void loop() { 
+
+digitalWrite(LED_BUILTIN, HIGH); // acende o LED 
+delay(1000); // espera por um segundo 
+digitalWrite(LED_BUILTIN, LOW); // apaga o LED
+delay(1000); // espera por um segundo 
+}
 
 
 
